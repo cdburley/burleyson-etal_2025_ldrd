@@ -33,6 +33,7 @@ TBD
 ## Reproduce my figures
 Use the following notebooks to reproduce the main and supplementary figures used in this publication.
 
-| Figure Numbers |             Script Name              |                            Description                            | 
-|:--------------:|:------------------------------------:|:-----------------------------------------------------------------:|
-|      TBD       | plot_ldrd_ba_service_territory.ipynb | Plots the service territory of the six BAs used in this analysis. |
+| Figure Numbers |              Script Name               |                                   Description                                   | 
+|:--------------:|:--------------------------------------:|:-------------------------------------------------------------------------------:|
+|      TBD       |    plot_ba_service_territory.ipynb     |        Plots the service territory of the six BAs used in this analysis.        |
+|      TBD       | plot_ba_load_weather_time_series.ipynb | Plots the raw time series of the load, weather, and population data for each BA |
