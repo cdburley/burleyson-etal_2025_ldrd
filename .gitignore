@@ -1,3 +1,6 @@
+# Directories
+trained_mlp_models/
+
 # sys files
 .DS_Store
 
