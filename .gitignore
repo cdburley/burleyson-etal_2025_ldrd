@@ -1,6 +1,6 @@
 # Directories
-trained_mlp_models/
-mlp_projections/
+data/trained_mlp_models/
+data/mlp_projections/
 
 # sys files
 .DS_Store
