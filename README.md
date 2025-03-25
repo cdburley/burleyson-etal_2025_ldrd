@@ -7,13 +7,13 @@ specific BAs the analysis uses are controlled in the `balancing_authority_modele
 underlying machine learning models rely on functions within the Total ELectricity Loads (TELL) python package. Before 
 running any of the scripts below you should install TELL using `pip install tell`.
 
-| Figure Numbers |              Script Name               |                                                       Description                                                        | 
+| Notebook Order |              Script Name               |                                                       Description                                                        | 
 |:--------------:|:--------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|
-|      TBD       |    plot_ba_service_territory.ipynb     |                              Plots the service territory of the BAs used in this analysis.                               |
-|      TBD       | plot_ba_load_weather_time_series.ipynb |                     Plots the raw time series of the load, weather, and population data for each BA.                     |
-|      TBD       |     train_and_run_mlp_models.ipynb     | Iteratively trains the TELL MLP models using evolving time windows and uses the models to project loads forward in time. |
-|      TBD       |    calculate_error_statistics.ipynb    |                             Calculates the error statistics for each of the trained models.                              |
-|      TBD       |     plot_ba_error_evolution.ipynb      |                        Plots the evolution of errors by BA for each of the trained models.                               |
+|       1        |    plot_ba_service_territory.ipynb     |                              Plots the service territory of the BAs used in this analysis.                               |
+|       2        | plot_ba_load_weather_time_series.ipynb |                     Plots the raw time series of the load, weather, and population data for each BA.                     |
+|       3        |     train_and_run_mlp_models.ipynb     | Iteratively trains the TELL MLP models using evolving time windows and uses the models to project loads forward in time. |
+|       4        |    calculate_error_statistics.ipynb    |                             Calculates the error statistics for each of the trained models.                              |
+|       5        |     plot_ba_error_evolution.ipynb      |                        Plots the evolution of errors by BA for each of the trained models.                               |
 
 ## Proposed next steps
 * Replicate the initial analysis by confirming that you can run all the notebooks listed above.
