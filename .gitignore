@@ -2,6 +2,10 @@
 data/trained_mlp_models/
 data/mlp_projections/
 data/cleaned_historical_data/
+data/compiled_historical_data/
+data/ba_service_territory/
+data/county_shapefiles/
+data/state_shapefiles/
 
 # sys files
 .DS_Store
