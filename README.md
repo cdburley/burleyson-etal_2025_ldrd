@@ -14,7 +14,7 @@ running any of the scripts below you should install TELL using `pip install tell
 |      TBD       |    train_and_run_mlp_models.ipynb      | Iteratively trains the TELL MLP models using evolving time windows and uses the models to project loads forward in time. |
 
 ## Proposed next steps
-1. Retrain the MLP models to include total population in the BA as a predictive variable. There are two potential ways to do this:
-    You should be able to do this by adding "Population" to the `x_variables` parameter list (e.g., x_variables = ["Hour", "Month", "Temperature", "Specific_Humidity", "Wind_Speed", "Longwave_Radiation", "Shortwave_Radiation", "Population"]) when calling the `tell.train` function in the `train_and_run_mlp_models.ipynb` notebook. 
-    Adding a linear model after the MLP model the regresses the population variable against the residual from the original MLP prediction. Aowabin might have some code to help with this.
-2. 
+* Retrain the MLP models to include total population in the BA as a predictive variable. There are two potential ways to do this:
+    1) You should be able to do this by adding "Population" to the `x_variables` parameter list (e.g., x_variables = ["Hour", "Month", "Temperature", "Specific_Humidity", "Wind_Speed", "Longwave_Radiation", "Shortwave_Radiation", "Population"]) when calling the `tell.train` function in the `train_and_run_mlp_models.ipynb` notebook.
+    2) Adding a linear model after the MLP model the regresses the population variable against the residual from the original MLP prediction. Aowabin might have some code to help with this.
+* Test
