@@ -1,0 +1,7 @@
+# Default settings for cleaning the EIA-930 load data before passing to the ML modeling step.
+
+# Maximum hour-to-hour change in load. Hourly load values that have an hour-to-hour change greater than X times the mean change will be set to NaN and assigned error code -8888.
+hour_to_hour_change: 15
+
+# Maximum positive or negative standard deviation from the mean. Hourly load values that are more than X standard deviations from the mean will be set to NaN and assigned error code -7777.
+max_std_from_mean: 7
