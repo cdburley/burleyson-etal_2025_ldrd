@@ -7,6 +7,8 @@ data/historical_weather/
 data/ba_service_territory/
 data/county_shapefiles/
 data/state_shapefiles/
+data/Change_Metrics.pptx
+notebooks/seasonal_statistics.ipynb
 
 # sys files
 .DS_Store
